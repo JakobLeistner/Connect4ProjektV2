@@ -38,7 +38,7 @@ namespace Connect4Game.RestAPI
             Guid uuid = Guid.NewGuid();
             string newGameID = uuid.ToString();
 
-            Game g = new Game(newGameID, (IPlayer)logic.GetPlayerFromID(playerID));
+            Game g = new Game(newGameID, logic.GetPlayerFromID(playerID));
             logic.GameList.Add(g);
             return g;
         }
@@ -46,8 +46,7 @@ namespace Connect4Game.RestAPI
         [HttpPost("JoinGame")]
         public void JoinGame([FromQuery] string playerID, [FromQuery] string gameID)
         {
-            logic.GetGameFromID(gameID).Player2 = logic.GetPlayerFromID(playerID);
-
+            logic.StartGame(playerID, gameID);
         }
 
         [HttpPost("LeaveGame")]
