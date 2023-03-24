@@ -1,6 +1,7 @@
 ﻿
 using Connect4Game.BusinessLogic;
-using Connect4Game.BusinessLogicContracts.Interfaces;
+using Connect4Game_BusinessLogic;
+using Connect4Game_BusinessLogic_Contracts.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -80,7 +81,7 @@ namespace Connect4Game.RestAPI
         }
 
         [HttpGet("GetQueue")]
-        public List<IPlayer> GetQueue()
+        public List<Player> GetQueue()
         {
             return logic.Queue;
         }
