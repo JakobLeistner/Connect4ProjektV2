@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Connect4Game.BusinessLogic.Contracts.Interfaces
+namespace Connect4Game_BusinessLogic_Contracts.Interfaces
 {
-    internal interface IPlayer
+    public interface IPlayer
     {
     }
 }

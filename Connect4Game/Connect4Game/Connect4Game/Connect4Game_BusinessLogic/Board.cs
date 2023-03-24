@@ -1,11 +1,11 @@
 ﻿using System;
-using Connect4Game.BusinessLogic.Contracts.Interfaces;
+using Connect4Game_BusinessLogic_Contracts.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Connect4Game.BusinessLogic
+namespace Connect4Game_BusinessLogic
 {
     public class Board : IBoard
     {
