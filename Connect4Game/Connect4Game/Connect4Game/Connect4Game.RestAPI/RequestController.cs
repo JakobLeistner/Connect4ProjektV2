@@ -1,6 +1,6 @@
 ﻿
 using Connect4Game.BusinessLogic;
-using Connect4Game.BusinessLogic.Contracts.Interfaces;
+using Connect4Game.BusinessLogicContracts.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
