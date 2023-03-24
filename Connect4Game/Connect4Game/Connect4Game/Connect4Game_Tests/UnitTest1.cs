@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Connect4Game.BusinessLogic;
+using Connect4Game_BusinessLogic;
 using System;
 
 namespace Connect4Game.Tests
