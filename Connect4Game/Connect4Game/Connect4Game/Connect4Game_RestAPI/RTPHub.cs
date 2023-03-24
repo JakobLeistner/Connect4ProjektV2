@@ -1,5 +1,5 @@
-﻿using Connect4Game.BusinessLogic;
-using Connect4Game.BusinessLogic.Contracts.Interfaces;
+﻿using Connect4Game_BusinessLogic;
+using Connect4Game_BusinessLogic_Contracts.Interfaces;
 using Microsoft.AspNetCore.SignalR;
 using System;
 using System.Collections.Generic;
