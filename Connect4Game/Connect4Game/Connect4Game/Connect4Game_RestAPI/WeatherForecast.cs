@@ -1,6 +1,6 @@
 using System;
 
-namespace Connect4Game.RestAPI
+namespace Connect4Game_RestAPI
 {
     public class WeatherForecast
     {
