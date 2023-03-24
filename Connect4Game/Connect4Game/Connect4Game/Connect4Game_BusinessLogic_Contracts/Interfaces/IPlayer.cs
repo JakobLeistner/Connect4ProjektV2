@@ -8,5 +8,9 @@ namespace Connect4Game_BusinessLogic_Contracts.Interfaces
 {
     public interface IPlayer
     {
+        string PlayerID { get; set; }
+        string Color { get; }
+
+        string GetName();
     }
 }
