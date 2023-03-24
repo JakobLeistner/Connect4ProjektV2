@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Connect4Game.RestAPI.Controllers
+namespace Connect4Game_RestAPI_Controllers
 {
     [ApiController]
     [Route("[controller]")]
