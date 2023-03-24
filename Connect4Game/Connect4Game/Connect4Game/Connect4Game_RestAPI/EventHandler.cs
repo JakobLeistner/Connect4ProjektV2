@@ -11,5 +11,9 @@ namespace Connect4Game_RestAPI
         {
             //parameter connectionService nur hinzugefügt, weil startup.cs das scheinbar möchte
         }
+        public void EventHandlerInitalize(string HubUrlOderSo)
+        {
+
+        }
     }
 }
