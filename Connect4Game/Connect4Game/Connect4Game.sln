@@ -5,15 +5,15 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connect4Game", "Connect4Game.csproj", "{0AA5B96F-A65F-4A6C-B995-8D57A7C460BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connect4Game.BusinessLogic", "Connect4Game\Connect4Game.BusinessLogic\Connect4Game.BusinessLogic.csproj", "{B7193F3B-9931-4795-B02B-209118CC4C3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connect4Game_BusinessLogic", "Connect4Game\Connect4Game.BusinessLogic\Connect4Game_BusinessLogic.csproj", "{B7193F3B-9931-4795-B02B-209118CC4C3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Game.BusinessLogic.Contracts", "Connect4Game\Connect4Game.BusinessLogic.Contracts\Connect4Game.BusinessLogic.Contracts.csproj", "{D91DA26E-BB06-4102-8C0A-4D11173A5BAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Game_BusinessLogic_Contracts", "Connect4Game\Connect4Game.BusinessLogic.Contracts\Connect4Game_BusinessLogic_Contracts.csproj", "{D91DA26E-BB06-4102-8C0A-4D11173A5BAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Game.Tests", "Connect4Game\Connect4Game.Tests\Connect4Game.Tests.csproj", "{89C6D03A-DCBC-4A95-A518-C8ADDD28C224}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Game_Tests", "Connect4Game\Connect4Game.Tests\Connect4Game_Tests.csproj", "{89C6D03A-DCBC-4A95-A518-C8ADDD28C224}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Game.RestAPI", "Connect4Game\Connect4Game.RestAPI\Connect4Game.RestAPI.csproj", "{3566CF04-332C-48C1-9F60-6EB46CA4A793}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Game_RestAPI", "Connect4Game\Connect4Game.RestAPI\Connect4Game_RestAPI.csproj", "{3566CF04-332C-48C1-9F60-6EB46CA4A793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Game.RestAPI.Contracts", "Connect4Game\Connect4Game.RestAPI.Contracts\Connect4Game.RestAPI.Contracts.csproj", "{D7D6D240-8CC8-44EC-BC05-334444423E28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Game_RestAPI_Contracts", "Connect4Game\Connect4Game.RestAPI.Contracts\Connect4Game_RestAPI_Contracts.csproj", "{D7D6D240-8CC8-44EC-BC05-334444423E28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
