@@ -18,9 +18,10 @@ namespace Connect4Game_BusinessLogic
         public EventHandler OnMoveMade { get; set; }
         public EventHandler OnGameEnded { get; set; }
 
-        public Game(string gameID, string playerID)
+        public Game(string gameID, IPlayer player)
         {
             this.GameID = gameID;
+            this.Player1 = player;
         }
 
         public bool MakeMove(IPlayer p, int col)
