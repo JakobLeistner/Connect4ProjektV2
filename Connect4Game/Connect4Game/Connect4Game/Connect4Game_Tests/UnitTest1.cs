@@ -1,25 +1,28 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Connect4Game_BusinessLogic_Contracts.Interfaces;
 using Connect4Game_BusinessLogic;
 using System;
 
-namespace Connect4Game.Tests
+namespace Connect4Game_Tests
 {
     [TestClass]
     public class UnitTest1
     {
         Game Game;
+        Player Player;
 
         [TestInitialize]
         public void Init()
         {
-            Game = new Game("", ""); // gameID, playerID
+            Player = new Player("12345", "Alexander Marcus", "Rosa");
+            Game = new Game("egalwas", (IPlayer) Player); // gameID, playerID
         }
 
         // GetName(): string
         [TestMethod]
         public void GetName_WhenNamesAreSame_NamesMatch()
         {
-            string name = "";
+            string name = "Alexander Marcus";
             Assert.AreSame(name, Game.CurrentPlayer.GetName());
         }
 
