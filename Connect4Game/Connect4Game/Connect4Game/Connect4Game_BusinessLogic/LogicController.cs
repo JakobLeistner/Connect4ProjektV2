@@ -29,14 +29,14 @@ namespace Connect4Game_BusinessLogic
             PlayerList.Add(player);
         }
 
-        public IGame StartGame(string playerID1, string playerID2)
+        public IGame StartGame(string gameID, string playerID)
         {
             int col = 6;
             int row = 7;
             Board Board = new Board(col, row);
-            IGame game = new Game(playerID1, playerID2);
-            GameList.Add(game);
-            return game;
+            var currentGame = GetGameFromID(gameID);
+            currentGame.Player2 = GetPlayerFromID(playerID);
+            return currentGame;
         }
 
         public void EndGame(string gameID)
@@ -47,7 +47,7 @@ namespace Connect4Game_BusinessLogic
 
         public void MakeMoveInGame(string gameID, string playerID, int col)
         {
-            var Game = new Game(gameID, playerID);
+            var Game = GetGameFromID(gameID); ;
             IPlayer p = GetPlayerFromID(playerID);
             Game.MakeMove(p, col);
         }
