@@ -7,5 +7,9 @@ namespace Connect4Game.RestAPI
 {
     public class EventHandler
     {
+        public EventHandler(ConnectionService connectionService)
+        {
+            //parameter connectionService nur hinzugefügt, weil startup.cs das scheinbar möchte
+        }
     }
 }
